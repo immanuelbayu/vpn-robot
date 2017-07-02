@@ -2,7 +2,7 @@ const fs = require('fs');
 const opn = require('opn');
 
 let urlData = '';
-let max = 10, min = 6;
+let max = 3, min = 1;
 let randomMinute = (Math.floor(Math.random() * (max - min + 1)) + min) * 60 * 1000;
 
 fs.readFile('blog.txt', 'utf8', function (err,data) {
@@ -29,7 +29,7 @@ function timeout() {
 			browserType = ['firefox'];
 		} else {
 			console.log('Browser : Chrome');
-			browserType = ['chrome', '--incognito'];
+			browserType = ['google-chrome', '--incognito'];
 		}
 
 	  	opn(urlData[random].trim(), {app: browserType});
