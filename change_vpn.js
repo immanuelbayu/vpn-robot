@@ -15,7 +15,7 @@ function timeout() {
 		});
 
         timeout();
-    }, 1 * 60 * 1000);
+    }, 10 * 60 * 1000);
 };
 
 timeout();

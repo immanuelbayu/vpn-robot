@@ -1,7 +1,7 @@
 #!/bin/bash
 
-randomVpn=(idn smart sgju sgcb hk2)
-randomNumber=$(( $RANDOM % 4 ));
+randomVpn=(id1 smart jpto1 ausy2 usla1 ukel nlam defr1 itmi se1 krsk uz1)
+randomNumber=$(( $RANDOM % 12 ));
 
 #echo "${randomNumber}"
 #echo "${myArray[randomNumber]}"

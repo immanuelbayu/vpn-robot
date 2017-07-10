@@ -2,7 +2,7 @@ const fs = require('fs');
 const opn = require('opn');
 
 let urlData = '';
-let max = 3, min = 1;
+let max = 2, min = 1;
 let randomMinute = (Math.floor(Math.random() * (max - min + 1)) + min) * 60 * 1000;
 
 fs.readFile('blog.txt', 'utf8', function (err,data) {
@@ -27,6 +27,9 @@ function timeout() {
 		if(random % 2 == 1){
 			console.log('Browser : Firefox');
 			browserType = ['firefox'];
+		} else if(random % 3 == 1) {
+			console.log('Browser : Opera');
+			browserType = ['opera'];
 		} else {
 			console.log('Browser : Chrome');
 			browserType = ['google-chrome', '--incognito'];
