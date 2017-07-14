@@ -5,6 +5,13 @@ let urlData = '';
 let max = 2, min = 1;
 let randomMinute = (Math.floor(Math.random() * (max - min + 1)) + min) * 60 * 1000;
 
+let execKillBrowser = require('child_process').exec;
+let execChangeVpn = require('child_process').exec;
+let childKillBrowser;
+let childChangeVpn;
+let timeOutKillBrowser = 10 * 60 * 1000;
+let timeOutChangeVpn = 5 * 60 * 1000;
+
 fs.readFile('blog.txt', 'utf8', function (err,data) {
 	urlData = data.split(";");
 });
@@ -39,6 +46,33 @@ function timeout() {
 
         timeout();
     }, randomMinute);
+
+    setTimeout(function () {
+    	childKillBrowser = execKillBrowser("./kill_browser.sh", function (error, stdout, stderr) {
+		  console.log('stdout: ' + stdout);
+		  console.log('stderr: ' + stderr);
+
+		  if (error !== null) {
+		    console.log('exec error: ' + error);
+		  }
+		});
+
+        timeout();
+    }, timeOutKillBrowser);
+
+    setTimeout(function () {
+    	childChangeVpn = execChangeVpn("./express.sh", function (error, stdout, stderr) {
+		  console.log('stdout: ' + stdout);
+		  console.log('stderr: ' + stderr);
+		  
+		  if (error !== null) {
+		    console.log('exec error: ' + error);
+		  }
+
+		});
+
+        timeout();
+    }, timeOutChangeVpn);
 };
 
 timeout();
