@@ -1,10 +1,10 @@
-let exec = require('child_process').exec;
-let child;
+let execChangeVpn = require('child_process').exec;
+let childChangeVpn;
+let timeOutChangeVpn = 5 * 60 * 1000;
 
 function timeout() {
     setTimeout(function () {
-
-    	child = exec("./express.sh", function (error, stdout, stderr) {
+    	childChangeVpn = execChangeVpn("./express.sh", function (error, stdout, stderr) {
 		  console.log('stdout: ' + stdout);
 		  console.log('stderr: ' + stderr);
 		  
@@ -15,7 +15,7 @@ function timeout() {
 		});
 
         timeout();
-    }, 10 * 60 * 1000);
+    }, timeOutChangeVpn);
 };
 
 timeout();

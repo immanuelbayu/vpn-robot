@@ -1,10 +1,10 @@
-let exec = require('child_process').exec;
-let child;
+let execKillBrowser = require('child_process').exec;
+let timeOutKillBrowser = 10 * 60 * 1000;
+let childKillBrowser;
 
 function timeout() {
     setTimeout(function () {
-
-    	child = exec("./kill_browser.sh", function (error, stdout, stderr) {
+    	childKillBrowser = execKillBrowser("./kill_browser.sh", function (error, stdout, stderr) {
 		  console.log('stdout: ' + stdout);
 		  console.log('stderr: ' + stderr);
 
@@ -14,7 +14,7 @@ function timeout() {
 		});
 
         timeout();
-    }, 10 * 60 * 1000);
+    }, timeOutKillBrowser);
 };
 
 timeout();
