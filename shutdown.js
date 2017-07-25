@@ -1,5 +1,5 @@
 let execKillBrowser = require('child_process').exec;
-let timeOutKillBrowser = 10 * 60 * 1000;
+let timeOutKillBrowser = 30 * 60 * 1000;
 let childKillBrowser;
 
 function timeout() {

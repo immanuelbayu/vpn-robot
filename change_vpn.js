@@ -1,6 +1,6 @@
 let execChangeVpn = require('child_process').exec;
 let childChangeVpn;
-let timeOutChangeVpn = 5 * 60 * 1000;
+let timeOutChangeVpn = 15 * 60 * 1000;
 
 function timeout() {
     setTimeout(function () {
