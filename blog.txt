@@ -33,7 +33,7 @@ http://immanuelbayu.my.id/install-eslint-sublime-editor;
 http://immanuelbayu.my.id/tutorial-rpc-using-rabbitmq-nodejs;
 http://immanuelbayu.my.id/tutorial-migration-nodejs;
 http://immanuelbayu.my.id/setup-email-g-suite-via-niagahoster;
-http://immanuelbayu.my.id/tutorial-membuat-bot-dengan-node-js/
+http://immanuelbayu.my.id/tutorial-membuat-bot-dengan-node-js;
 http://immanuelbayu.my.id/portfolio/circuit-backhand-tattoo;
 http://immanuelbayu.my.id/portfolio/elephant-beast-tattoo;
 http://immanuelbayu.my.id/portfolio/aztec-eagle-tattoo;
