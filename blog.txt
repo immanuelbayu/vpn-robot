@@ -39,3 +39,7 @@ http://immanuelbayu.my.id/portfolio/elephant-beast-tattoo;
 http://immanuelbayu.my.id/portfolio/aztec-eagle-tattoo;
 http://immanuelbayu.my.id/portfolio/sangiang-trip-coast-view;
 http://immanuelbayu.my.id/portfolio/sangiang-trip-lake-view;
+http://immanuelbayu.my.id/belajar-dalam-film-warkop-gede-rasa;
+http://immanuelbayu.my.id/foke-dan-semangat-kolese;
+http://immanuelbayu.my.id/introduction-to-database;
+http://immanuelbayu.my.id/introduction-to-computer;
