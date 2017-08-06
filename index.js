@@ -2,16 +2,16 @@ const fs = require('fs');
 const opn = require('opn');
 
 let urlData = '';
-let max = 0.2, min = 0.1;
+let max = 2, min = 1;
 let randomMinute = (Math.floor(Math.random() * (max - min + 1)) + min) * 60 * 1000;
 
 let execKillBrowser = require('child_process').exec;
-let timeOutKillBrowser = 2 * 60 * 1000;
+let timeOutKillBrowser = 30 * 60 * 1000;
 let childKillBrowser;
 
 let execChangeVpn = require('child_process').exec;
 let childChangeVpn;
-let timeOutChangeVpn = 1 * 60 * 1000;
+let timeOutChangeVpn = 15 * 60 * 1000;
 
 fs.readFile('blog.txt', 'utf8', function (err,data) {
 	urlData = data.split(";");
@@ -35,7 +35,7 @@ function browserTimeout() {
 
 		console.log("Use Browser : " + browserType[randomBrowser]);
 
-	  	// opn(urlData[random].trim(), {app: browserType[randomBrowser]});
+	  	opn(urlData[random].trim(), {app: browserType[randomBrowser]});
 
         browserTimeout();
     }, randomMinute);
