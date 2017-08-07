@@ -56,3 +56,5 @@ http://immanuelbayu.my.id/ijazah-dan-sertifikasi;
 http://immanuelbayu.my.id/aktivis-di-kampus-biru;
 http://immanuelbayu.my.id/tutorial-membuat-pop-window;
 http://immanuelbayu.my.id/tutorial-paging-dengan-codeigniter;
+http://immanuelbayu.my.id/niat-baik;
+http://immanuelbayu.my.id/tutorial-jquery-validasi-form-sederhana;
