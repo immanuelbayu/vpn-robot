@@ -1,0 +1,15 @@
+expressvpn connect sgcb
+expressvpn connect hk1
+expressvpn connect jpto1
+expressvpn connect ausy2
+expressvpn connect usla1
+expressvpn connect usla2
+expressvpn connect usla3
+expressvpn connect uklo
+expressvpn connect defr2
+expressvpn connect nlam2
+expressvpn connect itmi
+expressvpn connect frpa2
+expressvpn connect cato2
+expressvpn connect krsk
+expressvpn connect il1
