@@ -7,13 +7,24 @@ const options = {
 
 const client = webdriverio.remote(options);
 
+let max = 1, min = 0.5;
+let randomMinute = (Math.floor(Math.random() * (max - min + 1)) + min) * 60 * 1000;
+
+fs.readFile('blog.txt', 'utf8', function (err,data) {
+	urlData = data.split(";");
+});
+
+let totalCount = urlData.length - 2;
+let random = Math.floor((Math.random() * totalCount) + 1);
+
 function open() {
 	return client
 	.init()
-	.url('http://immanuelbayu.biz.id')
+	.url(urlData[random].trim())
 }
 
-const scrollDelay = 200;
+const scrollDelay = 500;
+
 function scroll() {
 	return client.execute(() => {
 		let keepScroll = true;
@@ -46,6 +57,6 @@ function scroll() {
 setInterval(() => {
 	open()
 	.then(scroll)
-	.url('http://immanuelbayu.biz.id/blog/')
+	.url(urlData[random].trim())
 	.then(scroll).end();
-}, 5000);
+}, randomMinute);
