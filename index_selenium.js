@@ -1,4 +1,5 @@
 const webdriverio = require('webdriverio');
+const fs = require('fs');
 const options = {
 	desiredCapabilites: {
 		browserName: 'chrome'
@@ -7,6 +8,7 @@ const options = {
 
 const client = webdriverio.remote(options);
 
+let urlData = '';
 let max = 1, min = 0.5;
 let randomMinute = (Math.floor(Math.random() * (max - min + 1)) + min) * 60 * 1000;
 
