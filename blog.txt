@@ -67,3 +67,5 @@ http://immanuelbayu.my.id/pengalaman-jalan-jalan-ke-jepang-osaka;
 http://immanuelbayu.my.id/tutorial-docker-untuk-pemula-part-1;
 http://immanuelbayu.my.id/pengalaman-jalan-jalan-ke-jepang-kyoto;
 http://immanuelbayu.my.id/pengalaman-jalan-jalan-ke-jepang-tokyo;
+http://immanuelbayu.my.id/tutorial-docker-untuk-pemula-part-2;
+http://immanuelbayu.my.id/tutorial-docker-untuk-pemula-part-3;
