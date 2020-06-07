@@ -59,3 +59,4 @@ http://immanuelbayu.my.id/tutorial-docker-untuk-pemula-part-5;
 http://immanuelbayu.my.id/tutorial-slate-dengan-docker;
 http://immanuelbayu.my.id/memahami-cara-kerja-schedulers-di-spring-webflux;
 http://immanuelbayu.my.id/instalasi-swagger-di-spring-boot;
+http://immanuelbayu.my.id/cara-menghitung-thread-pada-scheduler-from-executor;
