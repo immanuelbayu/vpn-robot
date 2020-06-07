@@ -28,7 +28,6 @@ http://immanuelbayu.my.id/pengalaman-perpanjang-stnk-dan-sim-di-samsat-alam-sute
 http://immanuelbayu.my.id/create-a-heart-symbol-using-css;
 http://immanuelbayu.my.id/setup-email-g-suite-via-niagahoster;
 http://immanuelbayu.my.id/tutorial-membuat-bot-dengan-node-js;
-http://immanuelbayu.my.id/congestion;
 http://immanuelbayu.my.id/belajar-dalam-film-warkop-gede-rasa;
 http://immanuelbayu.my.id/foke-dan-semangat-kolese;
 http://immanuelbayu.my.id/bekerja-dan-pekerjaan;
@@ -60,3 +59,5 @@ http://immanuelbayu.my.id/tutorial-slate-dengan-docker;
 http://immanuelbayu.my.id/memahami-cara-kerja-schedulers-di-spring-webflux;
 http://immanuelbayu.my.id/instalasi-swagger-di-spring-boot;
 http://immanuelbayu.my.id/cara-menghitung-thread-pada-scheduler-from-executor;
+http://immanuelbayu.my.id/mengenal-tomcat-jetty-dan-undertow;
+http://immanuelbayu.my.id/cara-convert-swagger-ke-slate;
