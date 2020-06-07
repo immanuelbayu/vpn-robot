@@ -11,7 +11,7 @@ let childKillBrowser;
 
 let execChangeVpn = require('child_process').exec;
 let childChangeVpn;
-let timeOutChangeVpn = 15 * 60 * 1000;
+let timeOutChangeVpn = 3 * 60 * 1000;
 
 fs.readFile('blog.txt', 'utf8', function (err,data) {
 	urlData = data.split(";");
