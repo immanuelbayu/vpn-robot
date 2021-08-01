@@ -63,3 +63,4 @@ https://immanuelbayu.my.id/mengenal-tomcat-jetty-dan-undertow;
 https://immanuelbayu.my.id/cara-convert-swagger-ke-slate;
 https://immanuelbayu.my.id/membaca-di-tengah-pandemi;
 https://immanuelbayu.my.id/ulasan-buku-leaders-eat-last;
+https://immanuelbayu.my.id/ulasan-buku-atomic-habit;
